@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.p-40{
+  padding: 40px;
+}
+
+nav , .footer-text{
+  background-color: #2C3E50;
+}
+
+.footer-text ul li {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.navbar-brand{
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar-nav a{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.copyright{
+  background-color: #1A252F;
+}
+
+.home ,.about {
+  background-color: #1abc9c;
+  min-height: 83vh;
+  margin-top: 100px;
+}
+
+.home .content h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.hrz-line .line{
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
+
+.portfolio , .contact{
+  min-height: 83vh;
+  margin-top: 80px;
+}
+
+.portfolio h2 , .contact h2{
+  color: #2C3E50;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.portfolio .hrz-line , .contact .hrz-line{
+  color: #2C3E50 !important;
+}
+
+.portfolio .hrz-line .line , .contact .hrz-line .line {
+  height: 4px;
+  width: 80px;
+  background-color: #2C3E50;
+}
+
+.portfolio .content .layer{
+  background-color: rgba(26, 188, 156, 0.9);
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.portfolio .content .layer:hover{
+  opacity: 1;
+}
+
+.contact input.form-control:focus {
+  box-shadow: none;
+}
+
+.contact form .submit {
+  background-color: #1abc9c;
+}
+
+
+.active 
+{
+  background-color: #1abc9c;
+  border-radius: 10px;
+}
+
+.nav-link:focus,.nav-link:hover {
+  color: #fff !important;
+}
+
+.navbar-brand:focus , .navbar-brand:hover {
+ color: #fff;
+}
